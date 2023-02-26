@@ -1,0 +1,76 @@
+body {
+    background-color: #F5F5F5;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  #btnGenerar{
+    margin-top: 10px;
+  }
+  
+  .modal-header {
+    background-color: #07095f;
+    color: #FFFFFF;
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .modal-body {
+    padding: 0;
+  }
+  
+  .table {
+    margin-bottom: 0;
+    border: none;
+  }
+  
+  .table-bordered th, .table-bordered td {
+    border: none;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .table-bordered td:nth-child(1) {
+    width: 50%;
+    background-color: #F5F5F5;
+  }
+  
+  .table-bordered td:nth-child(2) {
+    width: 50%;
+  }
+  
+  .modal-footer {
+    border-top: none;
+    text-align: center;
+  }
+
+  input{
+    width: 200px;
+  }
+  
